@@ -1,0 +1,6 @@
+# JS-Day-6
+Scroll-Animation
+
+The HTML part is a basic structure of a web page with a title and a few div elements with class 'box' that will be animated on scroll. The CSS part sets the styles for the page, including the styles for the 'box' class elements. The 'box' class elements are given a width, height, margin, border-radius, box-shadow and transform properties. Additionally, there is a class 'show' that sets the transform property to translateX(0), which means it will be positioned at its original position. The JavaScript part uses the querySelectorAll method to select all the elements with class 'box', and then listens to the 'scroll' event of the window object using the addEventListener method. When the 'scroll' event is triggered, the checkBoxes function is executed. This function uses the getBoundingClientRect method to determine the position of each 'box' element relative to the viewport, and adds or removes the 'show' class depending on whether the top of the element is within the triggerBottom (which is set to the bottom fourth of the window's inner height) or not.
+
+This code demonstrates the basic concept of a scroll animation, where the position of an element is changed as the user scrolls the page. The code is simple and easy to understand, making it a great starting point for anyone who wants to learn about scroll animations.
